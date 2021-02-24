@@ -517,11 +517,11 @@ void parser() {
 						fscanf(filepointer, "%s", word);
 						break;
 					}
-					if (ch == EOF) { //if we find the end of file
+					if (ch == EOF) { // if we find the end of file
 						break;
 					}
 				}
-				if (ch == EOF) { //if we find the end of file
+				if (ch == EOF) { // if we find the end of file
 					break;
 				}
 			}
