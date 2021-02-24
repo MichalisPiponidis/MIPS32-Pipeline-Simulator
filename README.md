@@ -41,9 +41,15 @@ subu | Subtract Unsigned
 
 ## Outputs
 
+- For the selected cycles:
+  - Register Values
+  - Monitors/Obserbers Values (see diagram below)
+  - Memory State
+  - Instruction in each Pipeline Stage (*IF*,*ID*,*EX*,*MEM*,*WB*)
 - Final Register Values
-- Monitor/Obserbers Values for selected cycles (see diagram below)
-- Instruction in each pipeline stage for selected cycles (*IF*,*ID*,*EX*,*MEM*,*WB*)
+- Final Memory State
+- Total Cycles
+- Total Execution Time
 
 **Monitors/Observers:**
 ![Monitors/Observers:](monitors.png)
