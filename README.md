@@ -5,6 +5,7 @@ Cycle-Accurate simulation of a pipelined MIPS32 Processor in C.
 - Hazard Detection
 - Forwarding
 
+**Pipeline Diagram:**
 ![Pipeline Diagram:](MIPS32_Pipeline.png)
 
 ## Supported Instructions
@@ -44,5 +45,5 @@ subu | Subtract Unsigned
 - Monitor/Obserbers Values for selected cycles (see diagram below)
 - Instruction in each pipeline stage for selected cycles (*IF*,*ID*,*EX*,*MEM*,*WB*)
 
-
+**Monitors/Observers:**
 ![Monitors/Observers:](monitors.png)
