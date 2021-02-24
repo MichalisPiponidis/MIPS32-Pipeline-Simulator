@@ -1,4 +1,4 @@
-# MIPS32 Simulator
+# MIPS32 Pipeline Simulator
 Cycle-Accurate simulation of a pipelined MIPS32 Processor in C.
 
 **Features**:
