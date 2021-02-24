@@ -1,7 +1,7 @@
 # MIPS32 Simulator
 Cycle-Accurate simulation of a pipelined MIPS32 Processor in C.
 
-Features:
+**Features**:
 - Hazard Detection
 - Forwarding
 
